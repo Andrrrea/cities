@@ -21,7 +21,7 @@ function AJAX_data_cities()
         var jobj = JSON.parse(res);
         if(jobj) {
             Verarbeiten(jobj);
-            alwert("HIER?????");
+            alert("HIER?????");
         }
       }
       else alert("Error" + req.statusText);
