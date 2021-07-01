@@ -44,7 +44,7 @@ function Verarbeiten(jobj)
     Jahr: cities[i].Jahr,
     Einwohnerzahl: cities[i].Einwohnerzahl,
     }
-    data.push(jdata);
+    cities.push(jdata);
     //alert(jsondata);
     
   }
