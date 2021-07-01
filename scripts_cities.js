@@ -100,13 +100,13 @@ function Verarbeiten(jobj)
       },
       series: [{
           name: "Year " + cities[0].Jahr[0],
-          data: [107, 31, 635]
+          data: [cities[0].Einwohnerzahl[0], cities[0].Einwohnerzahl[1], cities[0].Einwohnerzahl[2]]
       }, {
-          name: cities[0].Jahr[1],
-          data: [133, 156, 947]
+          name: "Year " + cities[0].Jahr[1],
+          data: [cities[1].Einwohnerzahl[0], cities[1].Einwohnerzahl[1], cities[1].Einwohnerzahl[2]]
       }, {
-          name: cities[0].Jahr[2],
-          data: [814, 841, 3714]
+          name: "Year " + cities[0].Jahr[2],
+          data: [cities[2].Einwohnerzahl[0], cities[2].Einwohnerzahl[1], cities[2].Einwohnerzahl[2]]
       }]
   });
 }
