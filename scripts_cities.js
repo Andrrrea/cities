@@ -112,13 +112,13 @@ function Verarbeiten(jobj)
       },
       series: [{
           name: "Year 2010",
-          data: [107, 31, 635, 203, 2]
+          data: [107, 31, 635]
       }, {
           name: "Year 2011",
-          data: [133, 156, 947, 408, 6]
+          data: [133, 156, 947]
       }, {
           name: "Year 2012",
-          data: [814, 841, 3714, 727, 31]
+          data: [814, 841, 3714]
       }]
   });
 }
