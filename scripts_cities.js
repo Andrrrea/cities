@@ -70,7 +70,7 @@ function Verarbeiten(jobj)
           text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>'
       },
       xAxis: {
-          categories: ['Africa', 'Europe', 'America', 'Asia', 'Atlantic'],
+          categories: [cities[0].name, cities[1].name, cities[2].name],
           title: {
               text: null
           }
