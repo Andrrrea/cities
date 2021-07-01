@@ -2,13 +2,13 @@
 // JSON für Highcharts einlesen – AJAX Einladen der JSON Datei – clientside !FUNKTIONIERT!
 
 window.onload = AJAX_data_cities;
-alert("Skript funktioniert");
+//alert("Skript funktioniert");
 
 function AJAX_data_cities() 
 {
   var req = new XMLHttpRequest();
 
-  console.log("HIER");
+  alert("HIER");
 
   req.onreadystatechange = function ()
   {
@@ -21,7 +21,7 @@ function AJAX_data_cities()
         var jobj = JSON.parse(res);
         if(jobj) {
             Verarbeiten(jobj);
-            console.log("HIER?????");
+            alwert("HIER?????");
         }
       }
       else alert("Error" + req.statusText);
