@@ -52,10 +52,7 @@ function Verarbeiten(jobj)
           type: 'bar'
       },
       title: {
-          text: 'Historic World Population by Region'
-      },
-      subtitle: {
-          text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>'
+          text: 'Historische Einwohnerzahlen Halle, Erfurt & Leipzig'
       },
       xAxis: {
           categories: [cities[0].name, cities[1].name, cities[2].name],
@@ -66,7 +63,7 @@ function Verarbeiten(jobj)
       yAxis: {
           min: 0,
           title: {
-              text: 'Population (millions)',
+              text: 'Einwohnerzahl (millions)',
               align: 'high'
           },
           labels: {
