@@ -1,0 +1,24 @@
+{
+    "cities": [
+{
+   "name": "Erfurt",
+   "Bundesland": "Thueringen",
+   "Jahr": [1950, 1990, 2020],
+   "Einwohnerzahl": [110.000, 115.000, 120.000],
+   "Groesse": 22.000
+ },
+ {
+  "name": "Halle",
+  "Bundesland": "Sachsen-Anhalt",
+  "Jahr": [1950, 1990, 2020],
+  "Einwohnerzahl": [210.000, 15.000, 320.000],
+  "Groesse": 50.000
+ },
+ {
+  "name": "Berlin",
+  "Bundesland": "Berlin",
+  "Jahr": [1950, 1990, 2020],
+  "Einwohnerzahl": [510.000, 315.000, 890.000],
+  "Groesse": 860.000
+ }
+]}
