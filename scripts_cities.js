@@ -7,9 +7,6 @@ window.onload = AJAX_data_cities;
 function AJAX_data_cities() 
 {
   var req = new XMLHttpRequest();
-
-  alert("erstes");
-
   req.onreadystatechange = function ()
   {
     
@@ -21,7 +18,6 @@ function AJAX_data_cities()
         var jobj = JSON.parse(res);
         if(jobj) {
             Verarbeiten(jobj);
-            alert("zweites");
         }
       }
       else alert("Error" + req.statusText);
@@ -30,7 +26,6 @@ function AJAX_data_cities()
   req.open("GET", "data_cities.json", true);
   req.send();
 }
-
 
 // result JSON in function for further transformation 
 function Verarbeiten(jobj)
@@ -45,19 +40,12 @@ function Verarbeiten(jobj)
     Einwohnerzahl: cities[i].Einwohnerzahl,
     }
     cities.push(jdata);
-    //alert(jsondata);
     
   }
  
 
     // Basic Bar Chart
-
-    //BarChart(city_data)
-    //function BarChart(series) {
-
         BarChart(cities);
-        //alert((JSON.stringify(jsondata.Nr)));
-        // } //end of success function
         function BarChart(series) {
         const chart = Highcharts.chart('container5', {
       chart: {
@@ -111,7 +99,7 @@ function Verarbeiten(jobj)
           enabled: false
       },
       series: [{
-          name: cities[0].Jahr[0],
+          name: "Year " + cities[0].Jahr[0],
           data: [107, 31, 635]
       }, {
           name: cities[0].Jahr[1],
