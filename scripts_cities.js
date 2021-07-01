@@ -111,13 +111,13 @@ function Verarbeiten(jobj)
           enabled: false
       },
       series: [{
-          name: "Year 2010",
+          name: cities[0].Jahr[0],
           data: [107, 31, 635]
       }, {
-          name: "Year 2011",
+          name: cities[0].Jahr[1],
           data: [133, 156, 947]
       }, {
-          name: "Year 2012",
+          name: cities[0].Jahr[2],
           data: [814, 841, 3714]
       }]
   });
