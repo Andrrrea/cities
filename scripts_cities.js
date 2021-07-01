@@ -8,7 +8,7 @@ function AJAX_data_cities()
 {
   var req = new XMLHttpRequest();
 
-  alert("HIER");
+  alert("erstes");
 
   req.onreadystatechange = function ()
   {
@@ -21,7 +21,7 @@ function AJAX_data_cities()
         var jobj = JSON.parse(res);
         if(jobj) {
             Verarbeiten(jobj);
-            alert("HIER?????");
+            alert("zweites");
         }
       }
       else alert("Error" + req.statusText);
@@ -55,8 +55,11 @@ function Verarbeiten(jobj)
     //BarChart(city_data)
     //function BarChart(series) {
 
-    document.addEventListener('DOMContentLoaded', function () {
-    Highcharts.chart('container5', {
+        BarChart(cities);
+        //alert((JSON.stringify(jsondata.Nr)));
+        // } //end of success function
+        function BarChart(series) {
+        const chart = Highcharts.chart('container5', {
       chart: {
           type: 'bar'
       },
@@ -118,5 +121,5 @@ function Verarbeiten(jobj)
           data: [814, 841, 3714, 727, 31]
       }]
   });
-})
+}
 }
