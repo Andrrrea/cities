@@ -52,7 +52,7 @@ function Verarbeiten(jobj)
           type: 'bar'
       },
       title: {
-          text: 'Historische Einwohnerzahlen Halle, Erfurt & Berin'
+          text: 'Historische Einwohnerzahlen Halle, Erfurt & Berlin'
       },
       xAxis: {
           categories: [cities[0].name, cities[1].name, cities[2].name],
@@ -104,13 +104,7 @@ function Verarbeiten(jobj)
       }, {
           name: "Year " + cities[0].Jahr[2],
           data: [cities[0].Einwohnerzahl[2], cities[1].Einwohnerzahl[2], cities[2].Einwohnerzahl[2], cities[3].Einwohnerzahl[2], cities[4].Einwohnerzahl[2]]
-      },{
-        name: "Year " + cities[0].Jahr[3],
-        data: [cities[0].Einwohnerzahl[3], cities[1].Einwohnerzahl[3], cities[2].Einwohnerzahl[3], cities[3].Einwohnerzahl[3], cities[4].Einwohnerzahl[3]]
-    }, {
-        name: "Year " + cities[0].Jahr[4],
-        data: [cities[0].Einwohnerzahl[4], cities[1].Einwohnerzahl[4],cities[2].Einwohnerzahl[4], cities[3].Einwohnerzahl[4], cities[4].Einwohnerzahl[4]]
-    }]
+      }]
   });
 }
 }
