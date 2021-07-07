@@ -97,14 +97,20 @@ function Verarbeiten(jobj)
       },
       series: [{
           name: "Year " + cities[0].Jahr[0],
-          data: [cities[0].Einwohnerzahl[0], cities[1].Einwohnerzahl[0], cities[2].Einwohnerzahl[0], cities[3].Einwohnerzahl[0], cities[4].Einwohnerzahl[0]]
+          data: [cities[0].Einwohnerzahl[0], cities[1].Einwohnerzahl[0], cities[2].Einwohnerzahl[0]]
       }, {
           name: "Year " + cities[0].Jahr[1],
-          data: [cities[0].Einwohnerzahl[1], cities[1].Einwohnerzahl[1], cities[2].Einwohnerzahl[1], cities[3].Einwohnerzahl[1], cities[4].Einwohnerzahl[1]]
+          data: [cities[0].Einwohnerzahl[1], cities[1].Einwohnerzahl[1], cities[2].Einwohnerzahl[1]]
       }, {
           name: "Year " + cities[0].Jahr[2],
-          data: [cities[0].Einwohnerzahl[2], cities[1].Einwohnerzahl[2], cities[2].Einwohnerzahl[2], cities[3].Einwohnerzahl[2], cities[4].Einwohnerzahl[2]]
-      }]
+          data: [cities[0].Einwohnerzahl[2], cities[1].Einwohnerzahl[2], cities[2].Einwohnerzahl[2]]
+      },{
+        name: "Year " + cities[0].Jahr[3],
+        data: [cities[0].Einwohnerzahl[3], cities[1].Einwohnerzahl[3], cities[2].Einwohnerzahl[3]]
+    }, {
+        name: "Year " + cities[0].Jahr[4],
+        data: [cities[0].Einwohnerzahl[4], cities[1].Einwohnerzahl[4],cities[2].Einwohnerzahl[4],]
+    }]
   });
 }
 }
