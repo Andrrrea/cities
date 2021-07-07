@@ -3,22 +3,22 @@
 {
    "name": "Erfurt",
    "Bundesland": "Thueringen",
-   "Jahr": [1950, 1990, 2020],
-   "Einwohnerzahl": [110.000, 115.000, 120.000],
-   "Groesse": 22.000
+   "Jahr": [1900, 1930, 1960, 1990, 2020],
+   "Einwohnerzahl": [85202, 141799, 186448, 208989, 214417],
+   "Groesse": 269.2
  },
  {
   "name": "Halle",
   "Bundesland": "Sachsen-Anhalt",
-  "Jahr": [1950, 1990, 2020],
-  "Einwohnerzahl": [210.000, 15.000, 320.000],
-  "Groesse": 50.000
+  "Jahr": [1900, 1930, 1960, 1990, 2020],
+  "Einwohnerzahl": [156609, 203829, 277855, 309406, 239053],
+  "Groesse": 135.02
  },
  {
   "name": "Berlin",
   "Bundesland": "Berlin",
-  "Jahr": [1950, 1990, 2020],
-  "Einwohnerzahl": [510.000, 315.000, 890.000],
+  "Jahr": [1900, 1930, 1960, 1990, 2020],
+  "Einwohnerzahl": [1888848, 4332834, 1881674, 1803129, 3769962],
   "Groesse": 860.000
  }
 ]}
