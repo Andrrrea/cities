@@ -96,19 +96,19 @@ function Verarbeiten(jobj)
           enabled: false
       },
       series: [{
-          name: "Halle",
+          name: "Year " + cities[0].Jahr[0],
           data: [1,2,4]
       }, {
-          name: "Erfurt",
+          name: "Year " + cities[0].Jahr[1],
           data: [10,20,30]
       }, {
-          name: "Berlin",
+          name: "Year " + cities[0].Jahr[2],
           data: [5, 15, 20]
       },{
-        name: "Berlin",
+        name: "Year " + cities[0].Jahr[3],
         data: [50, 100, 150]
     }, {
-        name: "Berlin",
+        name: "Year " + cities[0].Jahr[4],
         data: [60,80,100]
     }]
   });
