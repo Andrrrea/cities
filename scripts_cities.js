@@ -97,14 +97,20 @@ function Verarbeiten(jobj)
       },
       series: [{
           name: "Halle",
-          data: [cities[0].Einwohnerzahl[0], 2, 3]
+          data: [1,2,4]
       }, {
           name: "Erfurt",
           data: [10,20,30]
       }, {
           name: "Berlin",
           data: [5, 15, 20]
-      }]
+      },{
+        name: "Berlin",
+        data: [50, 100, 150]
+    }, {
+        name: "Berlin",
+        data: [60,80,100]
+    }]
   });
 }
 }
