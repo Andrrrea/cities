@@ -55,7 +55,7 @@ function Verarbeiten(jobj)
           text: 'Historische Einwohnerzahlen Halle, Erfurt & Berin'
       },
       xAxis: {
-          categories: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]],
+          categories: [cities[0].name, cities[1].name, cities[2].name],
           title: {
               text: null
           }
