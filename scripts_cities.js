@@ -52,10 +52,10 @@ function Verarbeiten(jobj)
           type: 'bar'
       },
       title: {
-          text: 'Historische Einwohnerzahlen Halle, Erfurt & Leipzig'
+          text: 'Historische Einwohnerzahlen Halle, Erfurt & Berin'
       },
       xAxis: {
-          categories: [cities[0].name, cities[1].name, cities[2].name],
+          categories: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]],
           title: {
               text: null
           }
@@ -63,7 +63,7 @@ function Verarbeiten(jobj)
       yAxis: {
           min: 0,
           title: {
-              text: 'Einwohnerzahl (millions)',
+              text: 'Einwohnerzahl',
               align: 'high'
           },
           labels: {
@@ -96,13 +96,13 @@ function Verarbeiten(jobj)
           enabled: false
       },
       series: [{
-          name: "Year " + cities[0].Jahr[0],
-          data: [1, 2, 3]
+          name: "Halle",
+          data: [cities[0].Einwohnerzahl[0], 2, 3]
       }, {
-          name: "Year " + cities[0].Jahr[1],
+          name: "Erfurt",
           data: [10,20,30]
       }, {
-          name: "Year " + cities[0].Jahr[2],
+          name: "Berlin",
           data: [5, 15, 20]
       }]
   });
