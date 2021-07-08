@@ -151,19 +151,16 @@ function Verarbeiten(jobj)
         name: 'Brands',
         colorByPoint: true,
         data: [{
-            name: 'Chrome',
+            name: cities[0].name,
             y: 61.41,
             sliced: true,
             selected: true
         }, {
-            name: 'Internet Explorer',
+            name: cities[1].name,
             y: 11.84
         }, {
-            name: 'Firefox',
+            name: cities[2].name,
             y: 10.85
-        }, {
-            name: 'Edge',
-            y: 4.67
         }]
     }]
 });
