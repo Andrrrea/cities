@@ -246,7 +246,6 @@ function Verarbeiten(jobj)
         allowDecimals: false,
         labels: {
             formatter: function () {
-                alert(this.value)
                 return this.value; // clean, unformatted number for year
                 
             }
@@ -286,7 +285,16 @@ function Verarbeiten(jobj)
     series: [{
         name: cities[0].name,
         data: [
-            cities[0].Einwohnerzahl[0], cities[0].Einwohnerzahl[1], cities[0].Einwohnerzahl[2],
+            cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],cities[0].Einwohnerzahl[0],
+            
+            
+            
+            
+            
+            
+            
+            
+            cities[0].Einwohnerzahl[1], cities[0].Einwohnerzahl[2],
             cities[0].Einwohnerzahl[3], cities[0].Einwohnerzahl[4]
         ]
     }, {
