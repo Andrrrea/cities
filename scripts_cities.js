@@ -184,8 +184,5 @@ function Verarbeiten(jobj)
 });
 
 
-
-
-
-
+}
 }
