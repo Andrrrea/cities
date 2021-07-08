@@ -43,7 +43,7 @@ function Verarbeiten(jobj)
     cities.push(jdata);
     
   }
-}
+
 
     // Basic Bar Chart
         BarChart(cities);
@@ -234,4 +234,5 @@ function Verarbeiten(jobj)
         stack: 'female'
     }]
 });
+}
 }
