@@ -186,7 +186,7 @@ function Verarbeiten(jobj)
     },
 
     xAxis: {
-        categories: [cities[0].name, cities[1].name, cities[2].name],
+        categories: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]],
         labels: {
             skew3d: true,
             style: {
@@ -218,15 +218,15 @@ function Verarbeiten(jobj)
 
     series: [{
         name: cities[0].name,
-        data: [5, 3, 4],
+        data: [cities[0].Einwohnerzahl[0], cities[0].Einwohnerzahl[1], cities[0].Einwohnerzahl[2], cities[0].Einwohnerzahl[3], cities[0].Einwohnerzahl[4]],
         stack: 'male'
     }, {
         name: cities[1].name,
-        data: [3, 4, 4],
+        data: [3, 4, 4, 5, 6],
         stack: 'male'
     }, {
         name: cities[2].name,
-        data: [2, 5, 6],
+        data: [2, 5, 6, 1, 3],
         stack: 'female'
     }]
 });
