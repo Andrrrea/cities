@@ -246,7 +246,9 @@ function Verarbeiten(jobj)
         allowDecimals: false,
         labels: {
             formatter: function () {
-                return this.value + 30; // clean, unformatted number for year
+                alert(this.value)
+                return this.value; // clean, unformatted number for year
+                
             }
         }, 
         accessibility: {
