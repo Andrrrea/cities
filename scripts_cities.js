@@ -242,10 +242,10 @@ function Verarbeiten(jobj)
     title: {
         text: 'Historische Einwohnerzahlen Erfurt, Halle & Berlin'
     },
-    /*xAxis: {
+    /* xAxis: {
         allowDecimals: false,
         categories: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]]
-    },*/
+    }, */
     yAxis: {
         title: {
             text: 'Einwohnerzahl'
