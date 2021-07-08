@@ -222,11 +222,11 @@ function Verarbeiten(jobj)
         stack: 'male'
     }, {
         name: cities[1].name,
-        data: [3, 4, 4, 5, 6],
+        data: [cities[1].Einwohnerzahl[0], cities[1].Einwohnerzahl[1], cities[1].Einwohnerzahl[2], cities[1].Einwohnerzahl[3], cities[1].Einwohnerzahl[4]],
         stack: 'male'
     }, {
         name: cities[2].name,
-        data: [2, 5, 6, 1, 3],
+        data: [cities[2].Einwohnerzahl[0], cities[2].Einwohnerzahl[1], cities[2].Einwohnerzahl[2], cities[2].Einwohnerzahl[3], cities[2].Einwohnerzahl[4]],
         stack: 'female'
     }]
 });
