@@ -240,7 +240,7 @@ function Verarbeiten(jobj)
         type: 'area'
     },
     title: {
-        text: 'Hostorische Einwohnerzahlen Erfurt, Halle & Berlin'
+        text: 'Historische Einwohnerzahlen Erfurt, Halle & Berlin'
     },
     xAxis: {
         allowDecimals: false,
