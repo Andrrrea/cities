@@ -246,7 +246,7 @@ function Verarbeiten(jobj)
         allowDecimals: false,
         labels: {
             formatter: function () {
-                return '1900' + '1930' + '1960' + '1990' + '2020'; // clean, unformatted number for year
+                return '1900', '1930', '1960', '1990', '2020'; // clean, unformatted number for year
             }
         }, 
         accessibility: {
