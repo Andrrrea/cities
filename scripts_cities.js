@@ -242,11 +242,6 @@ function Verarbeiten(jobj)
     title: {
         text: 'Hostorische Einwohnerzahlen Erfurt, Halle & Berlin'
     },
-    subtitle: {
-        text: 'Sources: <a href="https://thebulletin.org/2006/july/global-nuclear-stockpiles-1945-2006">' +
-            'thebulletin.org</a> &amp; <a href="https://www.armscontrol.org/factsheets/Nuclearweaponswhohaswhat">' +
-            'armscontrol.org</a>'
-    },
     xAxis: {
         allowDecimals: false,
         labels: {
@@ -255,7 +250,7 @@ function Verarbeiten(jobj)
             }
         },
         accessibility: {
-            rangeDescription: 'Range: 1940 to 2017.'
+            rangeDescription: 'Range: 1900 to 2020.'
         }
     },
     yAxis: {
@@ -273,11 +268,11 @@ function Verarbeiten(jobj)
     },
     plotOptions: {
         area: {
-            pointStart: 1940,
+            pointStart: 1900,
             marker: {
                 enabled: false,
                 symbol: 'circle',
-                radius: 2,
+                radius: 30,
                 states: {
                     hover: {
                         enabled: true
@@ -287,13 +282,13 @@ function Verarbeiten(jobj)
         }
     },
     series: [{
-        name: 'USA',
+        name: cities[0].name,
         data: [
             cities[0].Einwohnerzahl[0], cities[0].Einwohnerzahl[1], cities[0].Einwohnerzahl[2],
             cities[0].Einwohnerzahl[3], cities[0].Einwohnerzahl[4]
         ]
     }, {
-        name: 'USSR/Russia',
+        name: cities[1].name,
         data: [null, null, null, null, null, null, null, null, null, null,
             cities[1].Einwohnerzahl[0], cities[1].Einwohnerzahl[1], cities[1].Einwohnerzahl[2],
             cities[1].Einwohnerzahl[3], cities[1].Einwohnerzahl[4]
