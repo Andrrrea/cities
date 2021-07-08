@@ -244,7 +244,14 @@ function Verarbeiten(jobj)
     },
     xAxis: {
         allowDecimals: false,
-        labels: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]]
+        labels: {
+            formatter: function () {
+                return this.value; // clean, unformatted number for year
+            }
+        },
+        accessibility: {
+            rangeDescription: 'Range: 1900 to 2020.'
+        }
     }, 
     yAxis: {
         title: {
