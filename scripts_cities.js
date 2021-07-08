@@ -244,10 +244,7 @@ function Verarbeiten(jobj)
     },
     xAxis: {
         allowDecimals: false,
-        categories: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]],
-        accessibility: {
-            rangeDescription: 'Range: 1900 to 2020.'
-        }
+        categories: [cities[0].Jahr[0], cities[0].Jahr[1], cities[0].Jahr[2], cities[0].Jahr[3], cities[0].Jahr[4]]
     },
     yAxis: {
         title: {
@@ -268,7 +265,7 @@ function Verarbeiten(jobj)
             marker: {
                 enabled: false,
                 symbol: 'circle',
-                radius: 30,
+                radius: 2,
                 states: {
                     hover: {
                         enabled: true
