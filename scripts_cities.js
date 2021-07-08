@@ -311,8 +311,7 @@ function Verarbeiten(jobj)
         ]
     }]
 });
+}
 
 
-
-    }
 }
