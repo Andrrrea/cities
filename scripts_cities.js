@@ -152,15 +152,15 @@ function Verarbeiten(jobj)
         colorByPoint: true,
         data: [{
             name: cities[0].name,
-            y: 61.41,
+            y: cities[0].Einwohnerzahl[1],
             sliced: true,
             selected: true
         }, {
             name: cities[1].name,
-            y: 11.84
+            y: cities[1].Einwohnerzahl[1]
         }, {
             name: cities[2].name,
-            y: 10.85
+            y: cities[2].Einwohnerzahl[1]
         }]
     }]
 });
