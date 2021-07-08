@@ -243,7 +243,7 @@ function Verarbeiten(jobj)
         text: 'Historische Einwohnerzahlen Erfurt, Halle & Berlin'
     },
     xAxis: {
-        allowDecimals: true,
+        allowDecimals: false,
         /*labels: {
             formatter: function () {
                 return this.value; // clean, unformatted number for year
