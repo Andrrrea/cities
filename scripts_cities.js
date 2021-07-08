@@ -250,7 +250,7 @@ function Verarbeiten(jobj)
             }
         },
         accessibility: {
-            rangeDescription: 'Range: 1900 to 2020.'
+            rangeDescription: 'Range: 100 to 200.'
         }
     }, 
     yAxis: {
