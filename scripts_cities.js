@@ -186,7 +186,7 @@ function Verarbeiten(jobj)
     },
 
     xAxis: {
-        categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas'],
+        categories: [cities[0].name, cities[1].name, cities[2].name],
         labels: {
             skew3d: true,
             style: {
@@ -227,10 +227,6 @@ function Verarbeiten(jobj)
     }, {
         name: 'Jane',
         data: [2, 5, 6, 2, 1],
-        stack: 'female'
-    }, {
-        name: 'Janet',
-        data: [3, 0, 4, 4, 3],
         stack: 'female'
     }]
 });
