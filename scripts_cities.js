@@ -246,7 +246,7 @@ function Verarbeiten(jobj)
         allowDecimals: false,
         labels: {
             formatter: function () {
-                return cities[0].Einwohnerzahl[i]; // clean, unformatted number for year
+                return cities[0].Jahr[i]; // clean, unformatted number for year
             }
         }, 
         accessibility: {
