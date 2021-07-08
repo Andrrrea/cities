@@ -182,7 +182,7 @@ function Verarbeiten(jobj)
     },
 
     title: {
-        text: 'Total fruit consumption, grouped by gender'
+        text: 'Historische Einwohnerzahlen Erfurt, Halle & Berlin'
     },
 
     xAxis: {
@@ -218,15 +218,15 @@ function Verarbeiten(jobj)
 
     series: [{
         name: 'John',
-        data: [5, 3, 4, 7, 2],
+        data: [5, 3, 4],
         stack: 'male'
     }, {
         name: 'Joe',
-        data: [3, 4, 4, 2, 5],
+        data: [3, 4, 4],
         stack: 'male'
     }, {
         name: 'Jane',
-        data: [2, 5, 6, 2, 1],
+        data: [2, 5, 6],
         stack: 'female'
     }]
 });
