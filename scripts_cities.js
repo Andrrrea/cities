@@ -243,14 +243,14 @@ function Verarbeiten(jobj)
         text: 'Historische Einwohnerzahlen Erfurt, Halle & Berlin'
     },
     xAxis: {
-        allowDecimals: false,
-        labels: {
+        allowDecimals: true,
+        /*labels: {
             formatter: function () {
                 return this.value; // clean, unformatted number for year
             }
-        },
+        }, */
         accessibility: {
-            rangeDescription: 'Range: 100 to 200.'
+            rangeDescription: 'Range: 1900 to 2020.'
         }
     }, 
     yAxis: {
