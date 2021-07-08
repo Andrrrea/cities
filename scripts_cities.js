@@ -199,7 +199,7 @@ function Verarbeiten(jobj)
         allowDecimals: false,
         min: 0,
         title: {
-            text: 'Number of fruits',
+            text: 'Einwohnerzahl',
             skew3d: true
         }
     },
@@ -217,15 +217,15 @@ function Verarbeiten(jobj)
     },
 
     series: [{
-        name: 'John',
+        name: cities[0].name,
         data: [5, 3, 4],
         stack: 'male'
     }, {
-        name: 'Joe',
+        name: cities[1].name,
         data: [3, 4, 4],
         stack: 'male'
     }, {
-        name: 'Jane',
+        name: cities[2].name,
         data: [2, 5, 6],
         stack: 'female'
     }]
