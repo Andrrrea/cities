@@ -289,8 +289,7 @@ function Verarbeiten(jobj)
         ]
     }, {
         name: cities[1].name,
-        data: [null, null, null, null, null, null, null, null, null, null,
-            cities[1].Einwohnerzahl[0], cities[1].Einwohnerzahl[1], cities[1].Einwohnerzahl[2],
+        data: [cities[1].Einwohnerzahl[0], cities[1].Einwohnerzahl[1], cities[1].Einwohnerzahl[2],
             cities[1].Einwohnerzahl[3], cities[1].Einwohnerzahl[4]
         ]
     }]
