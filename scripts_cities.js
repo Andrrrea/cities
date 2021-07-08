@@ -244,11 +244,11 @@ function Verarbeiten(jobj)
     },
     xAxis: {
         allowDecimals: false,
-        labels: {
-            formatter: function () {
-                return this.value; // clean, unformatted number for year
-            }
-        },
+        labels:  ['1900', '1930', '1960', '1990', '2020']
+            /*formatter: function () {
+                return this.value; */ // clean, unformatted number for year
+            
+        ,
         accessibility: {
             rangeDescription: 'Range: 1900 to 2020.'
         }
