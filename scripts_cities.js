@@ -127,7 +127,7 @@ function Verarbeiten(jobj)
         type: 'pie'
     },
     title: {
-        text: 'Browser market shares in January, 2018'
+        text: 'Einwohnerzahlen Halle, Erfurt & Berlin, 1930'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -164,21 +164,6 @@ function Verarbeiten(jobj)
         }, {
             name: 'Edge',
             y: 4.67
-        }, {
-            name: 'Safari',
-            y: 4.18
-        }, {
-            name: 'Sogou Explorer',
-            y: 1.64
-        }, {
-            name: 'Opera',
-            y: 1.6
-        }, {
-            name: 'QQ',
-            y: 1.2
-        }, {
-            name: 'Other',
-            y: 2.61
         }]
     }]
 });
