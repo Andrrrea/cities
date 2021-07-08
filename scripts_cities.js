@@ -38,6 +38,7 @@ function Verarbeiten(jobj)
     Name: cities[i].name,
     Jahr: cities[i].Jahr,
     Einwohnerzahl: cities[i].Einwohnerzahl,
+    Groesse: cities[i].Groesse
     }
     cities.push(jdata);
     
@@ -127,7 +128,7 @@ function Verarbeiten(jobj)
         type: 'pie'
     },
     title: {
-        text: 'Einwohnerzahlen Halle, Erfurt & Berlin, 1930'
+        text: 'Fläche in km<sup>2 von Halle, Erfurt & Berlin, 2020'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -152,15 +153,15 @@ function Verarbeiten(jobj)
         colorByPoint: true,
         data: [{
             name: cities[0].name,
-            y: cities[0].Einwohnerzahl[1],
+            y: cities[0].Groesse,
             sliced: true,
             selected: true
         }, {
             name: cities[1].name,
-            y: cities[1].Einwohnerzahl[1]
+            y: cities[1].Groesse
         }, {
             name: cities[2].name,
-            y: cities[2].Einwohnerzahl[1]
+            y: cities[2].Groesse
         }]
     }]
 });
