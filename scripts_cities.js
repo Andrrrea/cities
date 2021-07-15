@@ -313,7 +313,9 @@ function Verarbeiten(jobj)
 });
 
 //Scrollable Diagramm
-Highcharts.chart('container1', {
+ScrollBar(cities);
+function ScrollBar(series) {
+const chart = Highcharts.chart('container1', {
     chart: {
         type: 'bar',
         marginLeft: 150
@@ -387,5 +389,5 @@ Highcharts.chart('container1', {
 
 }
 
-
+}
 }
