@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function () {
+    
     //Scrollable Diagramm
     Highcharts.chart('container1', {
         chart: {
@@ -133,3 +135,5 @@
     }));
 
     showValues();
+
+})
