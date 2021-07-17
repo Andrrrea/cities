@@ -124,8 +124,14 @@
                                 </div>
                                 <div class="card-body"> 
                                     <p>1. Binden Sie die highcharts library in dem HTML Dokument Ihrer Webpage ein</p>
-                                    <p><code>&lt;script src="https://code.highcharts.com/highcharts.js"&gt;</code></p>
-                                    
+                                    <div class="col-lg-12">
+                                        <div class="card shadow mb-4">
+                                            <div class="card-header py-3">
+                                                <h6 class="m-0 font-weight-bold text-primary"></h6>
+                                                    <p><code>&lt;script src="https://code.highcharts.com/highcharts.js"&gt;</code></p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -136,33 +142,48 @@
                                     </div>
                                     <div class="card-body"> 
                                         <p>2. Fügen Sie ein div in Ihre Webseite ein. Geben Sie ihm eine ID und legen Sie eine bestimmte Breite und Höhe fest, die die Breite und Höhe Ihres Diagramms sein werden.</p>
-                                        <p><code>&lt;div id="container_beispiel" style="width:100%; height:400px;">&lt;/div&gt;</code></p>
+                                        <div class="col-lg-12">
+                                            <div class="card shadow mb-4">
+                                                <div class="card-header py-3">
+                                                    <h6 class="m-0 font-weight-bold text-primary"></h6>
+                                                    <p><code>&lt;div id="container_beispiel" style="width:100%; height:400px;">&lt;/div&gt;</code></p>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <p>3. Ein Diagramm wird initialisiert, indem das JavaScript-Tag <code>&lt;script> &lt;/script&gt;</code> an beliebiger Stelle in einer Webseite eingefügt wird, das den folgenden Code enthält. Das div aus #1 wird darein referenziert.</p>
-                                        <p><code>document.addEventListener('DOMContentLoaded', function () {<br /> 
-                                            const chart = Highcharts.chart('container_beispiel', {<br /> 
-                                            chart: {<br /> 
-                                            type: 'bar'<br /> 
-                                            },<br /> 
-                                            title: {<br /> 
-                                            text: 'Unsere beliebtesten Brötchensorten'<br /> 
-                                            },<br /> 
-                                            xAxis: {<br /> 
-                                            categories: ['Buttercroissant', 'Dinkelhörnchen', 'Käsebrötchen']<br /> 
-                                            },<br /> 
-                                            yAxis: {<br /> 
-                                            title: {<br /> 
-                                            text: 'Bestellte Brötchen'<br /> 
-                                            }<br /> 
-                                            },<br /> 
-                                            series: [{<br /> 
-                                            name: 'Michele',<br /> 
-                                            data: [1, 0, 4]<br /> 
-                                            }, {<br /> 
-                                            name: 'John',<br /> 
-                                            data: [5, 7, 3]<br /> 
-                                            }]<br /> 
-                                            });<br /> 
-                                            });</code></p>
+                                        <div class="col-lg-12">
+                                            <div class="card shadow mb-4">
+                                                <div class="card-header py-3">
+                                                    <h6 class="m-0 font-weight-bold text-primary"></h6>
+                                                    <p><code>document.addEventListener('DOMContentLoaded', function () {<br /> 
+                                                        const chart = Highcharts.chart('container_beispiel', {<br /> 
+                                                        chart: {<br /> 
+                                                        type: 'bar'<br /> 
+                                                        },<br /> 
+                                                        title: {<br /> 
+                                                        text: 'Unsere beliebtesten Brötchensorten'<br /> 
+                                                        },<br /> 
+                                                        xAxis: {<br /> 
+                                                        categories: ['Buttercroissant', 'Dinkelhörnchen', 'Käsebrötchen']<br /> 
+                                                        },<br /> 
+                                                        yAxis: {<br /> 
+                                                        title: {<br /> 
+                                                        text: 'Bestellte Brötchen'<br /> 
+                                                        }<br /> 
+                                                        },<br /> 
+                                                        series: [{<br /> 
+                                                        name: 'Michele',<br /> 
+                                                        data: [1, 0, 4]<br /> 
+                                                        }, {<br /> 
+                                                        name: 'John',<br /> 
+                                                        data: [5, 7, 3]<br /> 
+                                                        }]<br /> 
+                                                        });<br /> 
+                                                        });</code></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
                                                 <script>
                                                     document.addEventListener('DOMContentLoaded', function () {
                                                        const chart = Highcharts.chart('container_beispiel', {
@@ -216,12 +237,111 @@
                                     </div>
                                     <div class="card-body"> 
                                         <p>5. Highcharts Diagramme lassen sich durch globale Themes optisch gestalten. Eine Übersicht gibt es zum Beispiel hier: <ahttps://jkunst.com/highcharts-themes-collection//a>. Um ein Diagramm optisch anzupassen, ist das jeweilige Theme mithilfe der Option <code>Highcharts.setOptions</code> einzufügen. Um ein Theme aus einer dieser Dateien anzuwenden, fügen Sie dies direkt nach der Einbindung der Datei highcharts.js ein:</p>
-                                        <p><code>&lt;script type="text/javascript" src="/js/themes/dark.js"&gt;&lt;/script&gt;</code></p>                         
+                                        <div class="card shadow mb-4">
+                                            <div class="card-header py-3">
+                                                <h6 class="m-0 font-weight-bold text-primary"></h6>
+                                                <p><code>&lt;script type="text/javascript" src="/js/themes/dark.js"&gt;&lt;/script&gt;</code></p>  
+                                            </div>
+                                        </div>                       
                                     </div>
                                 </div>
-                         </div>
-                   </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">Externe Datenquellen einbinden</h6>
+                                    </div>
+                                    <div class="card-body"> 
+                                        <p>6. Externe Datenquellen wie CSV, XML und JSON können in Highcharts verwendet werden. Während XML und CSV Daten noch ein Preprocessing durchlaufen müssen, lassen sich JSON Dateien (da sie schon im Javascript Format sind) direkt ohne Preprocessing einbinden. Da JSON eine häufige Datasource in der Praxis ist, soll hier die Einbindung einer JSON Datei erläutert werden.  </p>
+                                        <p>Name und Aufbau der JSON: <br /> 
+                                        <p>Name: <code>data_cities.json</code> // Datei liegt im gleichen Verzeichnis wie die Javascript Datei</p>
+                                            <div class="card shadow mb-4">
+                                                <div class="card-header py-3">
+                                                    <h6 class="m-0 font-weight-bold text-primary">Aufbau der JSON (Daten aus Wikipedia) </h6>
+                                        <p><code>{<br /> 
+                                            "cities": [<br /> 
+                                            {<br /> 
+                                            "name": "Erfurt",<br /> 
+                                            "Bundesland": "Thueringen",<br /> 
+                                            "Jahr": [1900, 1930, 1960, 1990, 2020],<br /> 
+                                            "Einwohnerzahl": [85202, 141799, 186448, 208989, 214417],<br /> 
+                                            "Groesse": 269.2<br /> 
+                                            },<br /> 
+                                            {<br /> 
+                                            "name": "Halle",<br /> 
+                                            "Bundesland": "Sachsen-Anhalt",<br /> 
+                                            "Jahr": [1900, 1930, 1960, 1990, 2020],<br /> 
+                                            "Einwohnerzahl": [156609, 203829, 277855, 309406, 239053],<br /> 
+                                            "Groesse": 135.02<br /> 
+                                            },<br /> 
+                                            {<br /> 
+                                            "name": "Berlin",<br /> 
+                                            "Bundesland": "Berlin",<br /> 
+                                            "Jahr": [1900, 1930, 1960, 1990, 2020],<br /> 
+                                            "Einwohnerzahl": [1888848, 4332834, 1881674, 1803129, 3769962],<br /> 
+                                            "Groesse": 860.000<br /> 
+                                            }<br /> 
+                                            ]}<br /> 
+                                            </code></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="card-body">
+                                            <p>7. JSON Dateien werden mittels AJAX in eine Javascript Datei eingebunden. AJAX (Asynchronous JavaScript and XML) ist eine Methode, die speziell für die Einbindung externer Inhalte in Javascript entwickelt wurde. <br />
+                                                Achtung: AJAX als Methode funktioniert jedoch nur, wenn die externen Dateien auf einem Server liegen. Auf lokal gespeicherte Dateien auf dem Computer kann nicht zugegriffen werden. Dies ist aus Sicherheitsgründen nicht erlaubt, um nur Inhalte anzeigen lassen zu können, die auch online stehen (sollen).<br />
+                                            Das verwendete Object, welches die erlaubt, externe Daten in Javascript einzubinden heißt <code>XMLHttpRequest</code></p>                                            
+                                    <div class="card shadow mb-4">
+                                        <div class="card-header py-3">
+                                            <h6 class="m-0 font-weight-bold text-primary">JSON in Javascript einbinden</h6>
+
+                                        <p><code>window.onload = AJAX_data_cities; // Name der Funktion<br /> 
+                                            //alert("Skript funktioniert");<br /> 
+                                            <br /> 
+                                            function AJAX_data_cities() <br /> 
+                                            {<br /> 
+                                            var req = new XMLHttpRequest();// Aufrufen des Objekts zum Einbinden von JSON<br /> 
+                                            req.onreadystatechange = function ()<br /> 
+                                            {<br /> 
+                                            <br /> 
+                                            if (req.readyState == 4)<br /> 
+                                            { <br /> 
+                                            if (req.status == 200 || req.status == 0)<br /> 
+                                            { <br /> 
+                                            var res = req.responseText;<br /> 
+                                            var jobj = JSON.parse(res);<br /> 
+                                            if(jobj) {<br /> 
+                                            Verarbeiten(jobj);  // Funktion Verarbeiten ist weiter unten definiert --> NOTWENDIG<br /> 
+                                            }<br /> 
+                                            }<br /> 
+                                            else alert("Error" + req.statusText);<br /> 
+                                            }<br /> 
+                                            }<br /> 
+                                            req.open("GET", "data_cities.json", true); // relativen Pfad und Name der JSON anpassen<br /> 
+                                            req.send();<br /> 
+                                            }</p>    
+                                            </br>
+                                            // Funktion Verarbeiten für die Nutzung der JSON Daten zum Zugriff auf die einzelnen Objekte <br /> 
+                                            function Verarbeiten(jobj)<br /> 
+                                            {<br /> 
+                                            var cities = jobj.cities;<br /> 
+                                            <br /> 
+                                            var city_data = [];<br /> 
+                                            for (var i in cities) {<br /> 
+                                            var jdata = {<br /> 
+                                            Name: cities[i].name,<br /> 
+                                            Jahr: cities[i].Jahr,<br /> 
+                                            Einwohnerzahl: cities[i].Einwohnerzahl,<br /> 
+                                            Groesse: cities[i].Groesse<br /> 
+                                            }<br /> 
+                                            cities.push(jdata);<br /> 
+                                            <br /> 
+                                            }<br /> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
                 <!-- /.container-fluid -->
 
 
