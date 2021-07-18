@@ -1,5 +1,5 @@
 
-// JSON für Highcharts einlesen – AJAX Einladen der JSON Datei – clientside !FUNKTIONIERT!
+// JSON für Highcharts einlesen – AJAX Einladen der JSON Datei – clientside 
 
 window.onload = AJAX_data_cities;
 //alert("Skript funktioniert");

@@ -124,9 +124,64 @@
                                 <div class="card-body"> 
                                    <div id="container5" style="width:100%; height:400px;"></div>
                                 </div>
+
+                        
+                            
+                            <div class="row mb-3">
+                                <div class="col-md-4 p-4">
+                                    <p><b>Die Daten aus JSON</b></p>
+                                    <p><code>window.onload = AJAX_data_cities; // Name der Funktion<br /> 
+                                        //alert("Skript funktioniert");<br /> 
+                                        <br /> 
+                                        function AJAX_data_cities() <br /> 
+                                        {<br /> 
+                                        var req = new XMLHttpRequest();// Aufrufen des Objekts zum Einbinden von JSON<br /> 
+                                        req.onreadystatechange = function ()<br /> 
+                                        {<br /> 
+                                        <br /> 
+                                        if (req.readyState == 4)<br /> 
+                                        { <br /> 
+                                        if (req.status == 200 || req.status == 0)<br /> 
+                                        { <br /> 
+                                        var res = req.responseText;<br /> 
+                                        var jobj = JSON.parse(res);<br /> 
+                                        if(jobj) {<br /> 
+                                        Verarbeiten(jobj);  // Funktion Verarbeiten ist weiter unten definiert --> NOTWENDIG<br /> 
+                                        }<br /> 
+                                        }<br /> 
+                                        else alert("Error" + req.statusText);<br /> 
+                                        }<br /> 
+                                        }<br /> 
+                                        req.open("GET", "data_cities.json", true); // relativen Pfad und Name der JSON anpassen<br /> 
+                                        req.send();<br /> 
+                                        }</p>    
+                                        </br>
+                                    // Funktion Verarbeiten für die Nutzung der JSON Daten zum Zugriff auf die einzelnen Objekte <br /> 
+                                    function Verarbeiten(jobj)<br /> 
+                                    {<br /> 
+                                    var cities = jobj.cities;<br /> 
+                                    <br /> 
+                                    var city_data = [];<br /> 
+                                    for (var i in cities) {<br /> 
+                                    var jdata = {<br /> 
+                                    Name: cities[i].name,<br /> 
+                                    Jahr: cities[i].Jahr,<br /> 
+                                    Einwohnerzahl: cities[i].Einwohnerzahl,<br /> 
+                                    Groesse: cities[i].Groesse<br /> 
+                                    }<br /> 
+                                    cities.push(jdata);<br /> 
+                                    <br /> 
+                                    }<br /> </code> </p>
+                                </div> 
+                                <div class="col-md-8 p-4">
+                                    <p><b>Codebeispiel für die Erstellung des Basic Bar Chart with JSON Data</b></p>
+                                    
+                                    <img src="img/basicchart.jpg" class="img-fluid" alt="Responsive image"
+                                        width="100%">
+                                </div>    
+                            </div>
                             </div>
                         </div>
-
                          <!-- Basic Pie Chart usin JSON Data -->
                          <div class="col-lg-12">
                             <div class="card shadow mb-4">
